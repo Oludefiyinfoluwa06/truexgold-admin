@@ -1,0 +1,67 @@
+.graphic {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, #211d7e, #040112);
+  width: 100%;
+  height: 100%;
+}
+.logonnew-1-icon1 {
+  position: absolute;
+  top: 287px;
+  left: 283.5px;
+  width: 226px;
+  height: 244px;
+  object-fit: contain;
+  z-index: 1;
+}
+.columns {
+  position: absolute;
+  top: -52px;
+  left: -60px;
+  width: 690px;
+  height: 960px;
+}
+.truexgold {
+  margin: 0;
+  position: absolute;
+  top: 511px;
+  left: 184px;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  background: linear-gradient(180deg, #8e7509, #cea600 50.03%, #786101);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  z-index: 1;
+}
+.content1 {
+  height: 832px;
+  width: 630px;
+  position: relative;
+  min-width: 630px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-29xl);
+  font-family: var(--h5-text);
+}
+@media screen and (max-width: 1200px) {
+  .content1 {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .truexgold {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .content1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .truexgold {
+    font-size: var(--font-size-10xl);
+  }
+}

@@ -1,0 +1,553 @@
+.transaction-monitoring2 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.logonnew-1-icon2 {
+  height: 38px;
+  width: 35px;
+  position: relative;
+  object-fit: cover;
+}
+.truexgold-admin1 {
+  text-decoration: none;
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #000,
+    #171645 25%,
+    #222064 37.16%,
+    #0d0c2b 79.22%,
+    #000
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.admin-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs-5) 0 0;
+}
+.account-title,
+.logonnew-1-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.logonnew-1-parent {
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+  font-size: var(--h5-text-size);
+}
+.account-title {
+  align-self: stretch;
+  border-bottom: 1px solid var(--normal-stroke);
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: var(--padding-7xs) var(--padding-8xs) var(--padding-9xs);
+  gap: var(--gap-xl);
+  max-width: 100%;
+}
+.rectangle-div {
+  align-self: stretch;
+  height: 481px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.user-assets-child {
+  height: 51px;
+  width: 1078px;
+  position: relative;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--grey);
+  display: none;
+  max-width: 100%;
+}
+.coins,
+.username1 {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 2;
+}
+.coins {
+  min-width: 42px;
+}
+.user-assets {
+  align-self: stretch;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-lgi) var(--padding-54xl) var(--padding-sm)
+    var(--padding-9xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  gap: var(--gap-xl);
+  z-index: 1;
+}
+.lenwis-clark,
+.oval-icon {
+  position: relative;
+  z-index: 1;
+}
+.oval-icon {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+.lenwis-clark {
+  display: inline-block;
+  min-width: 114px;
+}
+.transaction-details,
+.user-name {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.user-name {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.transaction-details {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.john-doe,
+.oval-icon1 {
+  position: relative;
+  z-index: 1;
+}
+.oval-icon1 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+.john-doe {
+  display: inline-block;
+  min-width: 85px;
+}
+.avatar-names,
+.avatar-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar-names {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.avatar-row {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.felix-stark,
+.oval-icon2 {
+  position: relative;
+  z-index: 1;
+}
+.oval-icon2 {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+}
+.felix-stark {
+  display: inline-block;
+  min-width: 94px;
+}
+.avatar-row1,
+.felix-stark-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.felix-stark-wrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.avatar-row1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.oval-icon3 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.lenwis-clark1 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.avatar-row2,
+.lenwis-clark-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lenwis-clark-wrapper {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.avatar-row2 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.oval-icon4 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.lenwis-clark2 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.avatar-row3,
+.lenwis-clark-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lenwis-clark-container {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.avatar-row3 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.oval-icon5 {
+  height: 40px;
+  width: 40px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.lenwis-clark3 {
+  position: relative;
+  display: inline-block;
+  min-width: 114px;
+  z-index: 1;
+}
+.lenwis-clark-frame {
+  flex-direction: column;
+  padding: var(--padding-3xs-5) 0 0;
+}
+.avatar-list,
+.avatar-row4,
+.lenwis-clark-frame,
+.transaction-row {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.avatar-row4 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.avatar-list,
+.transaction-row {
+  flex-direction: column;
+}
+.avatar-list {
+  align-self: stretch;
+  gap: var(--gap-9xl);
+}
+.transaction-row {
+  width: 162px;
+  gap: var(--gap-5xl);
+}
+.logonnew-1-icon3 {
+  height: 19px;
+  width: 17px;
+  position: relative;
+  object-fit: cover;
+  min-height: 19px;
+  z-index: 1;
+}
+.empty-space {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+  z-index: 1;
+}
+.logonnew-1-group,
+.spacer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.spacer {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-group {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div,
+.logonnew-1-icon4 {
+  position: relative;
+  z-index: 1;
+}
+.logonnew-1-icon4 {
+  height: 19px;
+  width: 17px;
+  object-fit: cover;
+  min-height: 19px;
+}
+.div {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 82px;
+}
+.logonnew-1-container,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-container {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div1,
+.logonnew-1-icon5 {
+  position: relative;
+  z-index: 1;
+}
+.logonnew-1-icon5 {
+  height: 19px;
+  width: 17px;
+  object-fit: cover;
+  min-height: 19px;
+}
+.div1 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 80px;
+}
+.container,
+.logonnew-1-parent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.container {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-parent1 {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div2,
+.logonnew-1-icon6 {
+  position: relative;
+  z-index: 1;
+}
+.logonnew-1-icon6 {
+  height: 19px;
+  width: 17px;
+  object-fit: cover;
+  min-height: 19px;
+}
+.div2 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 77px;
+}
+.frame,
+.logonnew-1-parent2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-parent2 {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div3,
+.logonnew-1-icon7 {
+  position: relative;
+  z-index: 1;
+}
+.logonnew-1-icon7 {
+  height: 19px;
+  width: 17px;
+  object-fit: cover;
+  min-height: 19px;
+}
+.div3 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 78px;
+}
+.logonnew-1-parent3,
+.wrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper1 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-parent3 {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.div4,
+.logonnew-1-icon8 {
+  position: relative;
+  z-index: 1;
+}
+.logonnew-1-icon8 {
+  height: 19px;
+  width: 17px;
+  object-fit: cover;
+  min-height: 19px;
+}
+.div4 {
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+}
+.logonnew-1-parent4,
+.wrapper2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.wrapper2 {
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+}
+.logonnew-1-parent4 {
+  flex-direction: row;
+  gap: var(--gap-6xs);
+}
+.login-buttons,
+.login-row {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.login-row {
+  justify-content: flex-start;
+  gap: var(--gap-29xl-6);
+}
+.login-buttons {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-5xs);
+  text-align: center;
+  font-size: var(--font-size-mini);
+}
+.transaction-list {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.account-info,
+.rectangle-parent,
+.user-transactions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.user-transactions {
+  width: 1058px;
+  flex-direction: row;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h5-text-size);
+  color: var(--color-black);
+}
+.account-info,
+.rectangle-parent {
+  align-self: stretch;
+  flex-direction: column;
+}
+.rectangle-parent {
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  padding: 0 0 var(--padding-25xl);
+  box-sizing: border-box;
+  gap: var(--gap-2xs);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray);
+}
+.account-info {
+  gap: var(--gap-15xl);
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-black);
+  font-family: var(--h5-text);
+}
+@media screen and (max-width: 1200px) {
+  .user-assets {
+    padding-right: var(--padding-17xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .transaction-monitoring2 {
+    font-size: var(--font-size-7xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .account-title {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent {
+    padding-bottom: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .account-info {
+    gap: var(--gap-mid);
+  }
+}
+@media screen and (max-width: 450px) {
+  .transaction-monitoring2 {
+    font-size: var(--font-size-lgi);
+  }
+  .transaction-list,
+  .user-assets {
+    flex-wrap: wrap;
+  }
+}
